@@ -1,0 +1,116 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-Size: 'cover';
+  background-Position: 'center';
+  background-Repeat: 'no-repeat';
+  height: '100vh';
+ margin: 0;
+ background-color: rgb(252, 213, 162);
+}
+.App {
+  text-align: center;
+  margin-top: 115px;
+}
+.todoWrapper{
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 400px;
+  border-radius: 20px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.taskss{
+  cursor: pointer;
+  background-color: rgb(216, 131, 19);
+  width: 277px;
+  margin-left: 62px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 40px;
+}
+.completed{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 9px;
+  float: left;
+  justify-content: center;
+}
+.not-completed{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 9px;
+  float: left;
+  justify-content: center;
+}
+.Eicons{
+  display: inline-block;
+  margin-top: 9px;
+  float: right;
+  justify-content: center;
+}
+.addT:focus {
+  outline: none;
+  border: none;
+}
+.svg-inline--fa{
+  margin-right: 8px;
+}
+.addT{
+  border-radius: 25px;
+  width: 200px;
+  height: 30px;
+  padding-left: 20px;
+  font-size: 17px;
+  background-color: rgb(252, 213, 162);
+  border: none;
+}
+.addT:hover{
+  border: 2px solid rgb(236, 168, 79);
+}
+.submit-btn{
+  border-radius: 25px;
+  height: 35px;
+  width: 45px;
+  font-size: 17px;
+  margin-left: 10px;
+  background-color: rgb(252, 213, 162);
+  border: none;
+  transition: 0.4s;
+}
+.submit-btn:hover {
+  background-color: rgb(236, 168, 79);;
+}
+.upTask{
+  background-color: rgb(216, 131, 19);
+  width: 200px;
+  margin-left: 1px;
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  padding-left: 9px;
+  margin-bottom: 0;
+}
+.upTask:hover{
+  background-color: rgb(220, 144, 45);
+}
+.submit-btn2{
+  margin-left: 5px;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 2;
+  margin-right: 0;
+  border: none;
+  background-color: rgb(216, 131, 19);
+  cursor: pointer;
+}
+.submit-btn2:hover{
+  background-color: rgb(195, 115, 11);
+}
